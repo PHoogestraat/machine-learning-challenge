@@ -11,7 +11,7 @@ Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there
 
 To process this data, three machine learning models capable of classifying candidate exoplanets from the raw dataset were created. This process was exacuted in the following stages:
 
-1. [Preprocess the raw data](#Preprocessing)
+1. [Preprocess the data](#Preprocessing)
 2. [Models](#Models)
 3. [Review](#Review)
 

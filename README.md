@@ -24,7 +24,7 @@ Data was optained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/k
 
 ### Models
 
-Three models were created to explore the dataset (model_1_Random_Forest_Decision_Tree.ipynb, model_2_SVC_Grid_Search, and model_3_Neural_network_Keras.ipynb).  Each model employed the primary dataset described above. The Random Forest Decision Tree Model had a testing data score of 0.89 and a training Data score of 1.0 with the primary dataset. The SVC model tuned with Grid Search had a testing data score of 0.88 and a training Data score of 0.89 with the primary dataset. After employing Grid Search the best score was 0.86. The Neural Networks with Keras model had a testing data score of 0.88 with the primary dataset.
+Three models were created to explore the dataset (model_1_Random_Forest_Decision_Tree.ipynb, model_2_SVC_Grid_Search, and model_3_Neural_network_Keras.ipynb).  Each model employed the primary dataset described above. The Random Forest Decision Tree Model had a testing data score of 0.89 and a training Data score of 1.0 with the primary dataset. The SVC model tuned with Grid Search had a testing data score of 0.88 and a training Data score of 0.89 with the primary dataset. After employing Grid Search the best score was 0.86. The Neural Networks with Keras model had a testing data score of 0.88 with the primary dataset. Each model was saved under the prefix z#_  after completion.
 
 ### Reporting
 

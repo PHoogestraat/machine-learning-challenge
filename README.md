@@ -49,7 +49,7 @@ Additional analysis of each mode was conducted. Precision data was also evaluate
 |SVC|Confirmed CANDIDATE|0.78|0.86|0.82|484|
 
 ## Conclusion
-All three models performed approximately the same. The Random Forest model did have a significantly higher model testing value. The Random Forest model also is convenient to use which may make it the best candidate. However, there are no real distinguishing differences between the models in predicting exoplanets.
+All three models performed approximately the same. The Random Forest model did have a significantly higher training score value. The Random Forest model also is convenient to use which may make it the best candidate. However, there are no real distinguishing differences between the models in predicting exoplanets.
 
 - - -
 

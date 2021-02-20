@@ -21,11 +21,11 @@ Create a machine learning model capable of classifying candidate exoplanets from
 ## Stages
 
 ### Preprocess the Data
-Data was obtained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) located on Kaggle and evaluated. Initial data set was 3.5 Mb containing 50 categories (columns) of data representing 10,000 exoplanet candidates Kepler has taken observations on. Null values were removed. The koi_disposition category (CANDIDATE, FALSE POSITIVE, NOT DISPOSITIONED or CONFIRMED) was converted to categorical data type (y) using hot-encoding. A random forest algorithm (python program: ml_find_features.ipynb) was employed to identify the top ten features impacting koi_dispositon. A dataset composed of the koi_dispositon and the ten most important features was created and served as the primary dataset for developing models (dataset: Top_10_origianl_koi_dispositon_data.csv). An additional dataset was created on the same dataset using MinMaxScaler as an additional resource.
+Data was obtained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) located on Kaggle. Initial dataset was 3.5 Mb containing 50 categories (columns) of data representing 10,000 exoplanet candidates Kepler has made observations on. Null values were removed. The koi_disposition category (CANDIDATE, FALSE POSITIVE, NOT DISPOSITIONED or CONFIRMED) was converted to categorical data type (y) using hot-encoding. A random forest algorithm (python program: ml_find_features.ipynb) was employed to identify the top ten features impacting koi_dispositon. A dataset composed of the koi_dispositon and the ten most important features was created and served as the primary dataset for developing models (dataset: Top_10_origianl_koi_dispositon_data.csv). An additional dataset was created on the same dataset using MinMaxScaler as an additional resource.
 
 ### Models
 
-Three models were created to explore the dataset (model_1_Random_Forest_Decision_Tree.ipynb, model_2_SVC_Grid_Search, and model_3_Neural_network_Keras.ipynb).  Each model employed the primary dataset described above. The Random Forest Decision Tree Model had a testing data score of 0.89 and a training Data score of 1.0 with the primary dataset. The SVC model tuned with Grid Search had a testing data score of 0.88 and a training Data score of 0.89 with the primary dataset. After employing Grid Search the best score was 0.86. The Neural Networks with Keras model had a testing data score of 0.88 with the primary dataset. Each model was saved under the prefix z#_  after completion.
+A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify exoplanets identified by the Kepler Space Observatory. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
 
 
 |Model|Model Score|
@@ -35,8 +35,15 @@ Three models were created to explore the dataset (model_1_Random_Forest_Decision
 |Neural Network|  0.88|
 
 ### Review
+Additional analysis of each mode was conducted and reported below. 
 
- 
+<center>
+|Model|Model Score|
+|-----|-----------|
+|Random Forest  |0.89|
+|SVC(GridSearh Score)|  0.88|
+|Neural Network|  0.88|
+</center>
 Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The False Positive disposition for these models was considerably higher than the other categories (Random Forest = 0.98, SVC =0.96). The Candidate disposition was: Random Forest = 0.80, SVC =0.83. The Confirmed disposition:  Random Forest = 0.79, SVC =0.78. These values appear to be the same. Values for the Neural Netwroks Score were not obtained. 
 
 |Model|koi disposition|Score|recall|f1-score|Support|

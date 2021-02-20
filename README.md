@@ -30,11 +30,11 @@ A Random Forest, SVC (with GridSearch), and Neural Network models were created t
 ### Review
 Analysis of each mode was conducted and reported below. 
 
-|Model|Model Score|
-|-----|-----------|
-|Random Forest  |0.89|
-|SVC(GridSearh Score)|  0.88|
-|Neural Network|  0.88|
+|Model|Model Score|Training Score|
+|-----|-----------|--------------|
+|Random Forest  |0.89|1.0 |
+|SVC(GridSearh Score)|  0.88|0.89|
+|Neural Network|  0.88|N.A.|
 
 
 Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
@@ -48,7 +48,7 @@ Additional analysis of each mode was conducted. Precision data was also evaluate
 |Random Forest|Confirmed CANDIDATE|0.79|0.83| 0.81|484|
 |SVC|Confirmed CANDIDATE|0.78|0.86|0.82|484|
 
-
+Training d
 - - -
 
 ## Resources

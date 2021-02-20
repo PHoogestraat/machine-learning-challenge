@@ -20,18 +20,11 @@ To process this data, three machine learning models capable of classifying candi
 ## Process
 
 ### Preprocess the Data
-Data was optained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) and evaluated.
-
-
-* Preprocess the dataset prior to fitting the model.
-* Perform feature selection and remove unnecessary features.
-* Use `MinMaxScaler` to scale the numerical data.
-* Separate the data into training and testing data.
+Data was optained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) located on kaggle and evaluated. Initial data set was 3.5 Mb containing 50 categories (columns) of data representing 10,000 exoplanet candidates Kepler has taken observations on. Null values were removed. The koi_disposition category (CANDIDATE, FALSE POSITIVE, NOT DISPOSITIONED or CONFIRMED) was converted to categorical (y) data type using hot-encoding. A random forest algorithm (python program: ml_find_features.ipynb) was employed on the modified data set to identify the top ten features impacting koi_dispositon.  A  dataset composed of the koi_dispositon and the ten most important features was created and served as the primary dataset for developing models (dataset: Top_10_origianl_koi_dispositon_data.csv). An additional dataset was created on the same dataset using MinMaxScaler as an additional resource.
 
 ### Models
 
-* Use `GridSearch` to tune model parameters.
-* Tune and compare at least two different classifiers.
+Three models were created to explore the dataset (model_1_Random_Forest_Decision_Tree.ipynb, model_2_SVC_Grid_Search, and model_3_Neural_network_Keras.ipynb).  Each model employed the primary dataset described above. The Random Forest Decision Tree Model had a testing data score of 0.89 and a training Data score of 1.0 with the primary dataset. The SVC model tuned with Grid Search had a testing data score of 0.88 and a training Data score of 0.89 with the primary dataset. After employing Grid Search the best score was 0.86. The Neural Networks with Keras model had a testing data score of 0.88 with the primary dataset.
 
 ### Reporting
 

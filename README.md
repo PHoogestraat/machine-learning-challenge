@@ -30,6 +30,12 @@ Three models were created to explore the dataset (model_1_Random_Forest_Decision
 * SVC Model with GridSearh Score:   0.88
 * Neural Netwroks Score:            0.88
 
+|Model|Model Score|
+|-----|-----------|
+|Random Forest  |0.89|
+|SVC Model with GridSearh Score|  0.88|
+|Neuaral Network|  0.88|
+
 ### Review
 
  

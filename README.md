@@ -13,7 +13,7 @@ To process this data, three machine learning models capable of classifying candi
 
 1. [Preprocess the raw data](#Preprocessing)
 2. [Models](#Models)
-3. [Reporitng](#Reporting)
+3. [Review](#Review)
 
 - - -
 
@@ -30,9 +30,9 @@ Three models were created to explore the dataset (model_1_Random_Forest_Decision
 * SVC Model with GridSearh Score:   0.88
 * Neural Netwroks Score:            0.88
 
-### Reporting
+### Review
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+The three modes produced similar scores on the dataset and are probalby not statisticly diffrent.
 
 - - -
 

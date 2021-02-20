@@ -41,7 +41,7 @@ Additional analysis of each mode was conducted. Precision data was also evaluate
 
 |Model|koi disposition|Score|recall|f1-score|Support|
 |-----|---------------|-----|------|--------|-------|
-|Random Forest|False Positive|0.98|0.73|0.77|411|
+|Random Forest|False Positive|0.98|1.00|0.99|853|
 |SVC|False Positive|0.96|0.98|0.97|853|
 |Random Forest|Candidate|0.80|0.73|0.77|411|
 |SVC|Candidate|0.83|0.69|0.75|411|

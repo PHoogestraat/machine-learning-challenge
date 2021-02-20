@@ -5,11 +5,11 @@
 
 ## Background
 
-Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
+The Kepler Space Observatory is a NASA-build satellite that was launched in 2009. The telescope is dedicated to searching for exoplanets in star systems besides our own, with the ultimate goal of possibly finding other habitable planets besides our own. The original mission ended in 2013 due to mechanical failures, but the telescope has nevertheless been functional since 2014 on a "K2" extended mission.
 
-To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
+Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
 
-In this homework assignment, you will need to:
+To process this data, three machine learning models capable of classifying candidate exoplanets from the raw dataset were created. This process was exacuted in the following stages:
 
 1. [Preprocess the raw data](#Preprocessing)
 2. [Models](#Models)

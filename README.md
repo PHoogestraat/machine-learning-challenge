@@ -35,6 +35,14 @@ Three models were created to explore the dataset (model_1_Random_Forest_Decision
  
 Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The False Positive disposition for these models was considerably higher than the other categories (Random Forest = 0.98, SVC =0.96). The Candidate disposition was: Random Forest = 0.80, SVC =0.83. The Confirmed disposition:  Random Forest = 0.79, SVC =0.78. These values appear to be the same. Values for the Neural Netwroks Score were not obtained. 
 
+|koi disposition|Model|Score|
+|---------------|-----|-----|
+|False Positive|Random Forest|0.98|
+|False Positive|SVC|0.96|
+|Candidate disposition|Random Forest|0.80|
+|Candidate disposition|SVC|0.83|
+|Confirmed disposition|Random Forest|0.79|
+|Confirmed disposition|SVC|0.78|
 
 
 - - -

@@ -10,7 +10,7 @@ The Kepler Space Observatory is a NASA-build satellite that was launched in 2009
 Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
 
 ## Goal
-Create a machine learning model capable of classifying candidate exoplanets from the raw dataset created. This process was exacuted in the following stages:
+Create a machine learning model capable of classifying candidate exoplanets with greater than 85% model score. This process was exacuted in the following stages:
 
 1. [Preprocess the data](#Preprocessing)
 2. [Models](#Models)
@@ -48,7 +48,9 @@ Additional analysis of each mode was conducted. Precision data was also evaluate
 |Random Forest|Confirmed CANDIDATE|0.79|0.83| 0.81|484|
 |SVC|Confirmed CANDIDATE|0.78|0.86|0.82|484|
 
-Training d
+## Conclusion
+All three models performed approximately the same. The Random Forest model did have a significantly higher model testing value. The Random Forest model also is convenient to use which may make it the best candidate. However, there are no real distinguishing differences between the models in predicting exoplanets.
+
 - - -
 
 ## Resources

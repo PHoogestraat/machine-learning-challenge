@@ -32,7 +32,7 @@ Three models were created to explore the dataset (model_1_Random_Forest_Decision
 
 ### Review
 
-The three modes produced similar scores on the dataset and are probalby not statisticly diffrent.
+The three modes produced similar scores on the dataset and are probalby not statisticly diffrent. The Random Forest model may be the best choice due to its simplicity.
 
 - - -
 
@@ -52,7 +52,6 @@ The three modes produced similar scores on the dataset and are probalby not stat
 
 - - -
 
-## Submission
 
 
 

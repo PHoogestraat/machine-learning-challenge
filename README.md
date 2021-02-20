@@ -27,25 +27,17 @@ Data was obtained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/k
 
 A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify exoplanets identified by the Kepler Space Observatory. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
 
-
-|Model|Model Score|
-|-----|-----------|
-|Random Forest  |0.89|
-|SVC(GridSearh Score)|  0.88|
-|Neural Network|  0.88|
-
 ### Review
-Additional analysis of each mode was conducted and reported below. 
+Analysis of each mode was conducted and reported below. 
 
-<center>
 |Model|Model Score|
 |-----|-----------|
 |Random Forest  |0.89|
 |SVC(GridSearh Score)|  0.88|
 |Neural Network|  0.88|
-</center>
 
-Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The False Positive disposition for these models was considerably higher than the other categories (Random Forest = 0.98, SVC =0.96). The Candidate disposition was: Random Forest = 0.80, SVC =0.83. The Confirmed disposition:  Random Forest = 0.79, SVC =0.78. These values appear to be the same. Values for the Neural Netwroks Score were not obtained. 
+
+Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
 
 |Model|koi disposition|Score|recall|f1-score|Support|
 |-----|---------------|-----|------|--------|-------|

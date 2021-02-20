@@ -17,9 +17,11 @@ To process this data, three machine learning models capable of classifying candi
 
 - - -
 
-## Instructions
+## Process
 
 ### Preprocess the Data
+Data was optained from the [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) and evaluated.
+
 
 * Preprocess the dataset prior to fitting the model.
 * Perform feature selection and remove unnecessary features.

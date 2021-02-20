@@ -44,6 +44,7 @@ Additional analysis of each mode was conducted and reported below.
 |SVC(GridSearh Score)|  0.88|
 |Neural Network|  0.88|
 </center>
+
 Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The False Positive disposition for these models was considerably higher than the other categories (Random Forest = 0.98, SVC =0.96). The Candidate disposition was: Random Forest = 0.80, SVC =0.83. The Confirmed disposition:  Random Forest = 0.79, SVC =0.78. These values appear to be the same. Values for the Neural Netwroks Score were not obtained. 
 
 |Model|koi disposition|Score|recall|f1-score|Support|

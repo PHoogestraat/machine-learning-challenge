@@ -66,7 +66,7 @@ All three models performed approximately the same. The Random Forest model did h
 - - -
 
 
-![kepler.jpg](Images/kepler.jpg)
+![kepler.png](Images/kepler.png)
 - - -
 
 

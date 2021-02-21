@@ -65,7 +65,7 @@ All three models performed approximately the same. The Random Forest model did h
 
 - - -
 
-
+### Kepler Space Observatory
 ![kepler.png](Images/kepler.png)
 - - -
 

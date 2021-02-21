@@ -5,7 +5,7 @@
 
 ## Background
 
-The Kepler Space Observatory is a NASA-build satellite launched in 2009. The telescope is searching for exoplanets in star systems outside of our own. The ultimate goal of the satelite is to identify habitable planets. The original mission ended in 2013 due to mechanical failures, but the telescope has been functional since 2014 on a "K2" extended mission.
+The Kepler Space Observatory is a NASA satellite launched in 2009. The telescope is searching for exoplanets in star systems outside of our own. The ultimate goal of the satelite is to identify habitable planets. The original mission ended in 2013 due to mechanical failures, but the telescope has been functional since 2014 on a "K2" extended mission.
 
 Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
 
